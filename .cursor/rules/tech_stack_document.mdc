@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Frontend
+- **React Native**
+- **Clerk** for auth
+- **Style**: StyleSheet API + theming via constants (forest, coffee, etc)
+
+### Backend
+- **API**: Node + Express (or tRPC / Next.js API routes if preferred)
+- **DB**: Neon (PostgreSQL)
+- **Auth**: Clerk JWT verification
+- **Jobs**: Upstash for scheduling / async triggers
+
+### AI Layer
+- OpenAI (GPT-4o) or Claude
+- Prompt types: classify (Eisenhower), reflect (routines), summarize (weekly)

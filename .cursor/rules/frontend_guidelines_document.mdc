@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Styling
+- Use React Native StyleSheet
+- Primary themes: coffee, forest, purple, ocean
+- Font size responsive to screen (base: 16px, title: 32px)
+- All spacing via constants (8 / 12 / 16 / 24 / 32)
+
+### Components
+- Functional with React Hooks
+- `/components/ComponentName/Component.tsx`
+- Theming pulled from `COLORS` via context or constant

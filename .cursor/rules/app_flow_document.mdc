@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+### Morning Flow
+1. User receives notification
+2. Inputs energy/mood/sleep
+3. App shows prioritized tasks (Eisenhower-style UI)
+4. User confirms plan
+
+### Evening Flow
+1. User receives notification
+2. Inputs completed/added tasks
+3. Optional: short question (mood/feedback)
+
+### Weekly Flow
+1. On Selected Day, user gets summary of previous week
+2. AI-generated insight card appears

@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Vision
+"Lazee est l'application to-do pensée pour celles et ceux qui ont du mal à s'organiser. En quelques minutes, elle t'aide à planifier ta journée de manière intelligente, adaptée à ton énergie, ton humeur et tes priorités. L'objectif : t'aider à avancer sans pression tout en apprenant à mieux te comprendre."
+
+### Product Rules
+- Always accessible, never overwhelming
+- One task done = already a win
+- Less thinking, more nudges
+
+### Technical Rules
+- Use Clerk for authentication only
+- Keep DB logic clean
+- Routines and tasks must be linkable per day
+- One insight = one message, short and digestible
+
+### AI Rules
+- Never overload the user with questions
+- Don’t just reflect — suggest simply
+- Respect mood & context before pushing anything

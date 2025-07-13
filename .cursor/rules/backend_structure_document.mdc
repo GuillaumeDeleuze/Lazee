@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### API Routes (to build)
+- `GET /tasks`: list all tasks for logged-in user
+- `POST /tasks`: create a task
+- `PUT /tasks/:id`: update a task
+- `DELETE /tasks/:id`: delete a task
+- `GET /routines/:date`: get user input for a specific day
+- `POST /routines`: create/update daily routine input (energy, mood, etc)
+- `GET /insights`: fetch AI-generated weekly insights (optional)
+- `POST /ai/classify`: send tasks to AI to get Eisenhower priority
+- `POST /ai/reflect`: send routine data to AI for analysis
+
+### Database (PostgreSQL on Neon)
+#### Tables:
+- `users` (id, clerk_id, theme, created_at)
+- `tasks` (id, user_id, title, priority, category, scheduled_date, completed, created_at)
+- `routines` (id, user_id, date, energy_level, mood, sleep_hours, did_sport, completed_tasks, added_tasks, note, created_at)
+- `insights` (id, user_id, week_start_date, summary_text, productivity_score, created_at)

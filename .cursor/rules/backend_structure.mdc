@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Auth
+- Clerk handles user auth
+- Backend verifies token with Clerk middleware (JWT)
+
+### Database
+- PostgreSQL schema (see above)
+- ORM: Kysely or Drizzle (optional migration layer)
+
+### Upstash
+- Schedule daily summary jobs
+- Debounced background AI processing
