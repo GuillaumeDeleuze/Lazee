@@ -261,4 +261,119 @@ export const styles = StyleSheet.create({
   transactionsListContent: {
     paddingBottom: 20,
   },
+  quadrantSelector: {
+    marginBottom: 16,
+  },
+  quadrantButtons: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  quadrantButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    backgroundColor: COLORS.card,
+  },
+  quadrantButtonText: {
+    fontSize: 12,
+    color: COLORS.text,
+  },
+  eisenhowerContainer: {
+    marginTop: 20,
+    marginBottom: 40,
+  },
+  matrixGrid: {
+    width: '100%',
+    height: 300,
+    borderWidth: 2,
+    borderColor: COLORS.border,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  quadrantTopLeft: {
+    width: '50%',
+    height: '50%',
+    borderRightWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: COLORS.border,
+    padding: 8,
+    backgroundColor: '#fef2f2',
+  },
+  quadrantTopRight: {
+    width: '50%',
+    height: '50%',
+    borderBottomWidth: 1,
+    borderColor: COLORS.border,
+    padding: 8,
+    backgroundColor: '#eff6ff',
+  },
+  quadrantBottomLeft: {
+    width: '50%',
+    height: '50%',
+    borderRightWidth: 1,
+    borderColor: COLORS.border,
+    padding: 8,
+    backgroundColor: '#fffbeb',
+  },
+  quadrantBottomRight: {
+    width: '50%',
+    height: '50%',
+    padding: 8,
+    backgroundColor: '#f9fafb',
+  },
+  quadrantLabel: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  simpleTask: {
+    marginBottom: 4,
+  },
+  taskText: {
+    fontSize: 12,
+    color: COLORS.text,
+  },
+  completedTask: {
+    textDecorationLine: 'line-through',
+    color: COLORS.textLight,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  taskItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: COLORS.background,
+    borderRadius: 8,
+    marginBottom: 4,
+    padding: 8,
+  },
+  taskContent: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  taskLeft: {
+    flex: 1,
+    marginLeft: 8,
+  },
+  taskTitle: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: COLORS.text,
+  },
+  quadrantContent: {
+    flex: 1,
+  },
+  emptyQuadrantText: {
+    textAlign: 'center',
+    color: COLORS.textLight,
+    fontSize: 12,
+    fontStyle: 'italic',
+    marginTop: 20,
+  },
 });

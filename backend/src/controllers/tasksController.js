@@ -17,15 +17,15 @@ export async function getTasksByUserId(req, res) {
 
 export async function createTask(req, res) {
   try {
-    const { title, category, user_id } = req.body;
+    const { title, category, user_id, priority } = req.body;
 
     if (!title || !user_id || !category) {
       return res.status(400).json({ message: 'All fields are required' });
     }
 
     const task = await sql`
-      INSERT INTO tasks(user_id,title,category)
-      VALUES (${user_id},${title},${category})
+      INSERT INTO tasks(user_id, title, category, priority)
+      VALUES (${user_id}, ${title}, ${category}, ${priority || 1})
       RETURNING *
     `;
 

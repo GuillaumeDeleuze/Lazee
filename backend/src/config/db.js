@@ -12,6 +12,7 @@ export async function initDB() {
   title VARCHAR(255) NOT NULL,
   category VARCHAR(255) NOT NULL,
   completed BOOLEAN DEFAULT FALSE,
+  priority INTEGER DEFAULT 1,
   created_at TIMESTAMP DEFAULT now()
 )`;
     await sql`CREATE TABLE IF NOT EXISTS routines (
