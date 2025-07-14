@@ -3,11 +3,7 @@ description:
 globs: 
 alwaysApply: false
 ---
-### Step 2: Task CRUD
-- 🔲 Define API routes (/tasks)
-- 🔲 Connect routes to Neon DB
-- 🔲 Secure endpoints with Clerk JWT
-- 🔲 Create dummy frontend page to test it
+
 
 ### Step 3: Routine Tracking
 - 🔲 Create UI for energy/mood input
@@ -15,7 +11,7 @@ alwaysApply: false
 - 🔲 Link daily routines to task performance
 
 ### Step 4: Weekly Summary
-- 🔲 Schedule Upstash job (Sunday 20h)
+- 🔲 Schedule Upstash job 
 - 🔲 AI generates insight via OpenAI or Claude
 - 🔲 Show summary card in-app
 
